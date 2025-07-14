@@ -8,7 +8,9 @@ export default function Page() {
         <>
         <div className={`flex-col gap-4 p-4 h-screen`}>
         <Cabecalho  titulo="Minha aplicacao" subtitulo="melhor aplicacao web"/>
-        <Conteudo/>
+        <Conteudo >
+            <p>Teste</p>
+        </Conteudo>
         <Rodape  feito ="Feito com amor por Rafael Iagher" copy ="CopyRightdwadwadwadwadwadwa"/>
         </div>
         </>
